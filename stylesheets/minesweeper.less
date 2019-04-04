@@ -1,0 +1,84 @@
+body {
+    div.wrapper {
+        position: relative;	width: 100%; height: auto;
+
+        #gamebox{
+            margin: 100px 0 0 400px; height: 420px; width: 400px; border: gray 2px outset; background-color: #ddd;
+
+            input[name=timer] {
+                margin: 10px 0 0 40px; height: 20px; width: 50px; border-style: inset; background-color: black; color: red;
+                font-size: 18px; text-align: center;
+            }
+
+            input[name=startButton] {
+                margin: 10px 0 0 200px; height: 20px; width: 50px; font-size: 11px;
+            }
+
+            div[name=field] {
+                margin: 10px 0 0 20px; height: 360px; width: 360px; border: black 2px inset; background-color: white;
+
+                table {
+                    td {
+                        height: 12px; width: 12px;
+                    }
+
+                    td.unchecked {
+                        border: 1px solid; background-color: #ccc;
+                    }
+
+                    td.checked {
+                        border: 1px inset; background-color: #eee;
+                    }
+
+                    td.checkedWithMine {
+                        border: 1px inset; background-repeat: no-repeat;
+                    }
+
+                    td.mine1 {
+                        background-image: url('../images/1.png');
+                    }
+
+                    td.mine2 {
+                        background-image: url('../images/2.png');
+                    }
+
+                    td.mine3 {
+                        background-image: url('../images/3.png');
+                    }
+
+                    td.mine4 {
+                        background-image: url('../images/4.png');
+                    }
+
+                    td.mine5 {
+                        background-image: url('../images/5.png');
+                    }
+
+                    td.mine6 {
+                        background-image: url('../images/6.png');
+                    }
+
+                    td.mine7 {
+                        background-image: url('../images/7.png');
+                    }
+
+                    td.mine8 {
+                        background-image: url('../images/8.png');
+                    }
+
+                    td.exploded {
+                        background-image: url('../images/mine.png');
+                    }
+                }
+            }
+
+            div[name=cover] {
+                position: absolute; margin-left: 20px; top: 45px;
+                height: 220px; width: 370px; background-color: #ccc; text-align: center;
+                font-size: 25px; padding-top: 150px;
+
+            }
+        }
+    }
+}
+

@@ -1,0 +1,4 @@
+var model = new function()
+{
+
+};
